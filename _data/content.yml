@@ -4,13 +4,14 @@
 ### here you can find all content in all pre-build sections
 
 ### Hero [ hero-image ]
+#commit and push -> 터미널에 git commit -m "메세지" -> git push -> git switch gh-pages -> git merge dev -> git push -> github 들어가서 deploy 누르기
 hero:
-  image: "assets/img/profile2.png"
-  image_alt: "Zoé Miller"
-  title: "<b>Zoé</b> Miller"
+  image: "assets/img/profile.png"
+  image_alt: "jeanhyok Bang"
+  title: "<b>jeanhyok</b> Bang"
   before_title: "Hello, <b>my name is</b>"
-  after_title: "I am <strong>Web Developer</strong>"
-  description: "From France, Paris. I have rich experience in web design, also I am good at wordpress. I love to talk with you about our unique."
+  after_title: "I am <strong>Cyber Security Monitoring</strong>"
+  description: "From S.Korea, Seoul. I have rich experience in web design, also I am good at wordpress. I love to talk with you about our unique."
   button1:
     label: "Download CV"
     link: "https://drive.google.com/"
@@ -26,41 +27,41 @@ hero:
       value: "Completed <strong>Projects</strong>"
 
 ### Services [ services ]
-services:
-  title: "What I Do"
-  subtitle: "my <b>Services</b>"
-  bg_title: "Services"
+# services:
+#   title: "What I Do"
+#   subtitle: "my <b>Services</b>"
+#   bg_title: "Services"
 
-  items:
-    - title: "Web Design &amp; Logo"
-      subtitle: "Web Development"
-      text: "Web designers craft the overall vision &amp; plan for a website layout. Professional logo development: Business, Company, or Personal."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+#   items:
+#     - title: "Web Design &amp; Logo"
+#       subtitle: "Web Development"
+#       text: "Web designers craft the overall vision &amp; plan for a website layout. Professional logo development: Business, Company, or Personal."
+#       button_label: "See Pricing"
+#       button_link: "#pricing-section"
 
-    - title: "iOS &amp; Android"
-      subtitle: "Apps Development"
-      text: "Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+#     - title: "iOS &amp; Android"
+#       subtitle: "Apps Development"
+#       text: "Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing."
+#       button_label: "See Pricing"
+#       button_link: "#pricing-section"
 
-    - title: "Unity &amp; Unreal Engine"
-      subtitle: "Game Development"
-      text: "Creating games &amp; describes the design, development and release of a game. Developing unique mobile android and ios games."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+#     - title: "Unity &amp; Unreal Engine"
+#       subtitle: "Game Development"
+#       text: "Creating games &amp; describes the design, development and release of a game. Developing unique mobile android and ios games."
+#       button_label: "See Pricing"
+#       button_link: "#pricing-section"
 
-    - title: "Google Ads"
-      subtitle: "Advertising"
-      text: "Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+#     - title: "Google Ads"
+#       subtitle: "Advertising"
+#       text: "Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program."
+#       button_label: "See Pricing"
+#       button_link: "#pricing-section"
 
-    - title: "Sound Track"
-      subtitle: "Music Writing"
-      text: "Music copying, writing, creating, transcription and composition services."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+#     - title: "Sound Track"
+#       subtitle: "Music Writing"
+#       text: "Music copying, writing, creating, transcription and composition services."
+#       button_label: "See Pricing"
+#       button_link: "#pricing-section"
 
 ### Skills [ skills ]
 skills:
@@ -70,7 +71,7 @@ skills:
 
   column1:
     items:
-      - label: "PHP" #0-10 progress in dots
+      - label: "Java" #0-10 progress in dots
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         value: "85" #0-100 progress in %
 
@@ -84,19 +85,19 @@ skills:
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         value: "75" #0-100 progress in %
 
-      - label: "React" #0-10 progress in dots
+      - label: "C" #0-10 progress in dots
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         value: "70" #0-100 progress in %
 
-  column3:
-    items:
-      - label: "WordPress" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "90" #0-100 progress in %
+  # column3:
+  #   items:
+  #     - label: "WordPress" #0-10 progress in dots
+  #       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  #       value: "90" #0-100 progress in %
 
-      - label: "Adobe XD" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "80" #0-100 progress in %
+  #     - label: "Adobe XD" #0-10 progress in dots
+  #       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  #       value: "80" #0-100 progress in %
 
 ### Resume [ resume ]
 resume:
