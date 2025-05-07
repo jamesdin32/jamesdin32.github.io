@@ -4,8 +4,9 @@
 ### here you can find all content in all pre-build sections
 
 ### Hero [ hero-image ]
+#commit and push -> 터미널에 git commit -m "메세지" -> git push -> git switch gh-pages -> git merge dev -> git push -> github 들어가서 deploy 누르기
 hero:
-  image: "assets/img/profile2.png"
+  image: "assets/img/profile.png"
   image_alt: "jeanhyok Bang"
   title: "<b>jeanhyok</b> Bang"
   before_title: "Hello, <b>my name is</b>"
