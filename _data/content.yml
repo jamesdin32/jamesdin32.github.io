@@ -21,9 +21,9 @@ hero:
   bg_title: "Web Developer"
   info:
     - num: "1 <strong>+</strong>"
-      value: "Years of <strong>Experience</strong>"
+      value: "Yearss of <strong>Experience</strong>"
 
-    - num: "1"
+    - num: "2"
       value: "Completed <strong>Projects</strong>"
 
 ### Services [ services ]
