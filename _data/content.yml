@@ -11,7 +11,7 @@ hero:
   title: "<b>jeanhyok</b> Bang"
   before_title: "Hello, <b>my name is</b>"
   after_title: "I am <strong>Cyber Security Monitoring</strong>"
-  description: "From S.Korea, Seoul. I have rich experience in web design, also I am good at wordpress. I love to talk with you about our unique."
+  description: "From S.Korea, Seoul. I am a student at Korea Polytech Gangseo Campus"
   button1:
     label: "Download CV"
     link: "https://drive.google.com/"
@@ -20,15 +20,15 @@ hero:
     link: "#skills-section"
   bg_title: "Web Developer"
   info:
-    - num: "12 <strong>+</strong>"
+    - num: "1 <strong>+</strong>"
       value: "Years of <strong>Experience</strong>"
 
-    - num: "330"
+    - num: "2"
       value: "Completed <strong>Projects</strong>"
 
 ### Services [ services ]
 # services:
-#   title: "What I Do"
+#   title: "What I do"
 #   subtitle: "my <b>Services</b>"
 #   bg_title: "Services"
 
@@ -108,19 +108,19 @@ resume:
   education:
     title: "Education"
     items:
-      - name: "CoderHouse Courses"
-        subname: "Backend Programming"
-        period: "2014 - 2016"
+      - name: "Korea Polytech Gangseo Campus"
+        subname: "major in Cyber Security"
+        period: "2024 - 2026"
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-      - name: "Lviv National Academy of Arts"
-        subname: "Faculty of Design"
-        period: "2012 - 2014"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      # - name: "Lviv National Academy of Arts"
+      #   subname: "Faculty of Design"
+      #   period: "2012 - 2014"
+      #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-      - name: "IT Future"
-        subname: "High School"
-        period: "2010 - 2012"
+      - name: "Orange Coast College"
+        subname: "major in Psychology"
+        period: "2013 - 2014"
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
   experience:
@@ -176,66 +176,66 @@ testimonials:
 
 
 ### Pricing [ pricing ]
-pricing:
-  title: "Pricing"
-  subtitle: "my <b>Price Board</b>"
-  bg_title: "Pricing"
+# pricing:
+#   title: "Pricing"
+#   subtitle: "my <b>Price Board</b>"
+#   bg_title: "Pricing"
 
-  items:
-    - name: "Hourley Basis"
-      center: false
-      price: "39 <b>$</b>"
-      price_after: "Hour"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
-      list:
-        - value: "Brand Design"
-          included: true
-        - value: "Web Development"
-          included: true
-        - value: "Advertising"
-          included: false
-        - value: "Photography"
-          included: false
-      button:
-        label: "Start Project"
-        link: "#contact-section"
+#   items:
+#     - name: "Hourley Basis"
+#       center: false
+#       price: "39 <b>$</b>"
+#       price_after: "Hour"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+#       list:
+#         - value: "Brand Design"
+#           included: true
+#         - value: "Web Development"
+#           included: true
+#         - value: "Advertising"
+#           included: false
+#         - value: "Photography"
+#           included: false
+#       button:
+#         label: "Start Project"
+#         link: "#contact-section"
 
-    - name: "Freelancing"
-      center: true
-      label: "Popular"
-      price: "259 <b>$</b>"
-      price_after: "Week"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
-      list:
-        - value: "Brand Design"
-          included: true
-        - value: "Web Development"
-          included: true
-        - value: "Advertising"
-          included: true
-        - value: "Photography"
-          included: false
-      button:
-        label: "Start Project"
-        link: "#contact-section"
+#     - name: "Freelancing"
+#       center: true
+#       label: "Popular"
+#       price: "259 <b>$</b>"
+#       price_after: "Week"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+#       list:
+#         - value: "Brand Design"
+#           included: true
+#         - value: "Web Development"
+#           included: true
+#         - value: "Advertising"
+#           included: true
+#         - value: "Photography"
+#           included: false
+#       button:
+#         label: "Start Project"
+#         link: "#contact-section"
 
-    - name: "Full Time"
-      center: false
-      price: "1.249 <b>$</b>"
-      price_after: "Month"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
-      list:
-        - value: "Brand Design"
-          included: true
-        - value: "Web Development"
-          included: true
-        - value: "Advertising"
-          included: true
-        - value: "Photography"
-          included: true
-      button:
-        label: "Start Project"
-        link: "#contact-section"
+#     - name: "Full Time"
+#       center: false
+#       price: "1.249 <b>$</b>"
+#       price_after: "Month"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+#       list:
+#         - value: "Brand Design"
+#           included: true
+#         - value: "Web Development"
+#           included: true
+#         - value: "Advertising"
+#           included: true
+#         - value: "Photography"
+#           included: true
+#       button:
+#         label: "Start Project"
+#         link: "#contact-section"
 
 
 ### Blog [ blog ]
