@@ -1,16 +1,18 @@
 ---
 layout: post
-title: "Welcome to Jekyll!"
-date: 2020-01-08
+title: "Threat Intelligence Report part(1)"
+date: 2025-05-14
 category:
-  - Video
-  - Music
+  - Text
+  - Report
 image: assets/img/blog/blog-4-scaled-1.jpg
 ### if need replace preview image for single image add field full_image, ex:
 #full_image: assets/img/works/work4.jpg
-author: Sarah Rose
-tags: Jekyll
+author: jeanhyok Bang
+tags: Jekyll, MITRE, AECM, Threat Intelligence Report
 ---
+# 위협 보고서 분석 1
+## 보고서 소스 및 분석 순서
 
 You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in [many different ways](https://jekyllrb.com/docs/usage/), but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
