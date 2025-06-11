@@ -111,7 +111,7 @@ resume:
       - name: "Korea Polytech Gangseo Campus"
         subname: "major in Cyber Security"
         period: "2024 - 2026"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      #  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
       # - name: "Lviv National Academy of Arts"
       #   subname: "Faculty of Design"
@@ -121,58 +121,58 @@ resume:
       - name: "Orange Coast College"
         subname: "major in Psychology"
         period: "2013 - 2014"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      #  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
   experience:
     title: "Experience"
     items:
-      - name: "UI Head &amp; Manager"
-        subname: "Soft Tech Inc."
-        period: "2020 - <b>Present</b>"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "PM"
+        subname: "Real time voice encryption system"
+        period: "2025 - <b>Present</b>"
+        text: "developing a real-time voice encryption communication system, voice processing, OPUS codec encoding, RSA key exchange, and network construction were performed"
 
-      - name: "UI / UX Specialist"
-        subname: "Kana Design Studio"
-        period: "2018 - 2020"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      #- name: "UI / UX Specialist"
+      #  subname: "Kana Design Studio"
+      #  period: "2018 - 2020"
+      #  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-      - name: "Plugins Developer"
-        subname: "Fiverr.com"
-        period: "2016 - 2018"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      #- name: "Plugins Developer"
+      #  subname: "Fiverr.com"
+      #  period: "2016 - 2018"
+      #  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 
 ### Testimonials [ testimonials ]
-testimonials:
-  title: "Testimonials"
-  subtitle: "what <b>Customers Say</b>"
-  bg_title: "Reviews"
+# testimonials:
+#   title: "Testimonials"
+#   subtitle: "what <b>Customers Say</b>"
+#   bg_title: "Reviews"
 
-  items:
-    - image: "assets/img/testimonials/testi4-2.jpg"
-      name: "Barbara Wilson"
-      role: "CEO Company"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#   items:
+#     - image: "assets/img/testimonials/testi4-2.jpg"
+#       name: "Barbara Wilson"
+#       role: "CEO Company"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-    - image: "assets/img/testimonials/testi4-1.jpg"
-      name: "Charlie Smith"
-      role: "Designer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#     - image: "assets/img/testimonials/testi4-1.jpg"
+#       name: "Charlie Smith"
+#       role: "Designer"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-    - image: "assets/img/testimonials/testi4-4.jpg"
-      name: "Roy Wang"
-      role: "Manager GYM"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#     - image: "assets/img/testimonials/testi4-4.jpg"
+#       name: "Roy Wang"
+#       role: "Manager GYM"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-    - image: "assets/img/testimonials/testi4-3.jpg"
-      name: "Jennifer Smith"
-      role: "CEO &amp; Founder"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#     - image: "assets/img/testimonials/testi4-3.jpg"
+#       name: "Jennifer Smith"
+#       role: "CEO &amp; Founder"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-    - image: "assets/img/testimonials/testi4-5.jpg"
-      name: "Paul Freeman"
-      role: "Photographer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#     - image: "assets/img/testimonials/testi4-5.jpg"
+#       name: "Paul Freeman"
+#       role: "Photographer"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 
 ### Pricing [ pricing ]
@@ -242,7 +242,7 @@ testimonials:
 #items generates from dir /_posts/*
 blog:
   title: "Latest Blog"
-  subtitle: "my <b>Articles and Advice</b>"
+  subtitle: "my <b>Articles</b>"
   bg_title: "Blog"
   button:
     label: "View Blog"
@@ -252,25 +252,25 @@ blog:
 ### Contact [ contacts ]
 contacts:
   title: "Contact Me"
-  subtitle: "Let’s <b>Talk About Ideas</b>"
+  subtitle: "Let’s <b>start talking</b>"
   bg_title: "Contact Me"
 
   list:
     - label: "Address"
       icon: "far fa-map"
-      text: "North Tower, Toronto, Canada"
+      text: "yeouido, Seoul, S.korea"
 
-    - label: "Freelance"
-      icon: "far fa-user"
-      text: "Available Right Now"
+    # - label: "Freelance"
+    #   icon: "far fa-user"
+    #   text: "Available Right Now"
 
     - label: "Email"
       icon: "far fa-envelope"
-      text: "zoe.miller@mydomain.com"
+      text: "cici9200@gmail.com ㅎ"
 
     - label: "Phone"
       icon: "far fa-address-book"
-      text: "+1 900 - 900 - 9000"
+      text: "+82 10 - 1234 - 5678"
 
 ### Portfolio [ portfolio ]
 #items generates from dir /_works/*
