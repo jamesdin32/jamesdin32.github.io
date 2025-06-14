@@ -1,33 +1,7 @@
 
 settings:
   skin: "dark"
-
-preloader:
-  logo:
-    image: "assets/img/jinhyuk-logo.png"
-    alt: "Jinhyuk"
-
 header:
   logo:
-    image: "assets/img/jinhyuk-logo.png"
-    alt: "Jinhyuk"
-
-social:
-  - title: "GitHub"
-    icon: "fab fa-github"
-    url: "https://github.com/jamesdin32"
-
-  - title: "LinkedIn"
-    icon: "fab fa-linkedin"
-    url: "https://linkedin.com/in/your-profile"
-
-footer:
-  developer: "Developed by <strong>방진혁</strong>"
-
-portfolio:
-  layout: "list"
-  filters:
-    - name: "Network Security"
-      slug: "network-security"
-    - name: "Python"
-      slug: "python"
+    image: "/assets/img/my-logo.png"
+    alt: "jeanhyok Bang"
