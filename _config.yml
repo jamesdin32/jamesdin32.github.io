@@ -3,7 +3,7 @@ description: 사이버보안과 학생의 프로젝트 포트폴리오
 email: jinhyuk@example.com
 baseurl: ""
 url: "https://jamesdin32.github.io"
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
