@@ -1,5 +1,10 @@
-{% assign sections = page.sections | split: "," %}
+---
+layout: default
+---
 
-{% for section in sections %}
-  {% include section-{{ section }}.html %}
-{% endfor %}
+<div id="page-sections">
+  {% assign active_sections = page.sections | split: ',' %}
+  {% for section in active_sections %}
+    {% include sections/{{ section | strip }}.html %}
+  {% endfor %}
+</div>
