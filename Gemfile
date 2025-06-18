@@ -32,3 +32,9 @@ gem "wdm", :platforms => [:mingw, :x64_mingw, :mswin]
 
 
 gem "webrick"
+
+gem 'csv'
+
+gem 'base64'
+
+gem 'bigdecimal'
