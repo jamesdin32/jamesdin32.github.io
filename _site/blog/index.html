@@ -13,10 +13,11 @@
 <link rel="canonical" href="http://0.0.0.0:4000/blog/" />
 <meta property="og:url" content="http://0.0.0.0:4000/blog/" />
 <meta property="og:site_name" content="jeanhyok’s Tech Blog" />
+<link rel="next" href="http://0.0.0.0:4000/blog/page2/" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Blog" />
 <script type="application/ld+json">
-{"description":"Technical Analysis","url":"http://0.0.0.0:4000/blog/","headline":"Blog","author":{"@type":"Person","name":"JH"},"@type":"WebPage","@context":"https://schema.org"}</script>
+{"description":"Technical Analysis","url":"http://0.0.0.0:4000/blog/","author":{"@type":"Person","name":"JH"},"headline":"Blog","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost%3A0%2C100%3B0%2C200%3B0%2C300%3B0%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C800%3B0%2C900%3B1%2C100%3B1%2C200%3B1%2C300%3B1%2C400%3B1%2C500%3B1%2C600%3B1%2C700%3B1%2C800%3B1%2C900%7CCaveat%3A400%3B500%3B600%3B700&#038;display=swap" type="text/css" media="all" >
@@ -72,7 +73,9 @@
 				<!-- logo -->
 				<div class="logo">
 					<a href="http://0.0.0.0:4000">
-						<img width="" height="" src="/assets/img/logo2.png" alt="Zoé Miller" />
+						<!--<img width="" height="" src="/assets/img/logo2.png" alt="JH" />-->
+						<p style="font-size:28px;">J H</p>
+
 					</a>
 				</div>
 
@@ -112,13 +115,7 @@
 											
 											
 											<li class="menu-item">
-												<a class="splitting-text-anim-2" data-splitting="chars" href="/">Home</a>
-												
-											</li>
-											
-											
-											<li class="menu-item">
-												<a class="splitting-text-anim-2" data-splitting="chars" href="/#services-section">Services</a>
+												<a class="splitting-text-anim-2" data-splitting="chars" href="http://jamesdin32.github.io">Home</a>
 												
 											</li>
 											
@@ -137,18 +134,6 @@
 											
 											<li class="menu-item">
 												<a class="splitting-text-anim-2" data-splitting="chars" href="/#resume-section">Resume</a>
-												
-											</li>
-											
-											
-											<li class="menu-item">
-												<a class="splitting-text-anim-2" data-splitting="chars" href="/#testimonials-section">Testimonials</a>
-												
-											</li>
-											
-											
-											<li class="menu-item">
-												<a class="splitting-text-anim-2" data-splitting="chars" href="/#pricing-section">Pricing</a>
 												
 											</li>
 											
@@ -191,18 +176,13 @@
 									<div class="menu-social-links">
 										
 										
-										<a href="http://twitter.com" target="_blank" rel="nofollow" class="scrolla-element-anim-1" title="Twitter">
-											<i aria-hidden="true" class="fab fa-twitter"></i>
+										<a href="http://github.com/jamesdin32/" target="_blank" rel="nofollow" class="scrolla-element-anim-1" title="Github">
+											<i aria-hidden="true" class="fab fa-github"></i>
 										</a>
 										
 										
-										<a href="http://dribbble.com" target="_blank" rel="nofollow" class="scrolla-element-anim-1" title="Dribbble">
-											<i aria-hidden="true" class="fab fa-dribbble"></i>
-										</a>
-										
-										
-										<a href="http://behance.com" target="_blank" rel="nofollow" class="scrolla-element-anim-1" title="Behance">
-											<i aria-hidden="true" class="fab fa-behance"></i>
+										<a href="https://www.linkedin.com/in/jeanhyok-bang-61b701369/" target="_blank" rel="nofollow" class="scrolla-element-anim-1" title="LinkedIn">
+											<i aria-hidden="true" class="fab fa-linkedin-in"></i>
 										</a>
 										
 									</div>
@@ -250,6 +230,90 @@
 
         <!-- Blog Items -->
         <div class="articles-container">
+          
+          <div class="archive-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+            <div class="image">
+              <a href="/network%20programming/2025/06/10/Socket-Programming-Server/">
+                <img src="/assets/img/blog/blog6.jpg" alt="Python Socket Programming" loading="lazy">
+              </a>
+            </div>
+            <div class="desc">
+              <div class="category lui-subtitle">
+                <span>2025-06-10</span>
+              </div>
+              <h5 class="lui-title">
+                <a href="/network%20programming/2025/06/10/Socket-Programming-Server/">Python Socket Programming</a>
+              </h5>
+              <div class="lui-text">
+                <p><h2 id="들어가기-앞서">들어가기 앞서</h2>
+<p><strong>프로그래머 관점에서</strong><br />
+  현대의 애플리케이션 개발에서 소켓 통신을 이해하는 것은 선택이 아닌 필수가 되었다. 채팅 앱, 온라인 게임, IoT 디바이스, 금융 서비스 등 우리가 일상적으로 접하는 대부분의 서비스가 클라이언트-서버 구조로 동작하며, 이 모든 통신의 근간에는 소켓이 자리하고 있다. 많은 웹 개발자들이 HTTP API만으로도 충분하다고 생각하지만, HTTP 역시 결국 TCP 소켓 위에서 구현된 프로토콜이다. 진정한 네트워크 프로그래밍 역량을 갖추려면 이러한 저수준 동작 원리를 이해해야 한다. 특히 실시간 스트리밍, 게임 서버, 보안이 중요한 시스템을 개발할 때는 HTTP로는 한계가 있어 TCP나 UDP 소켓을 직접 다루며 프로토콜을 설계해야 한다. 더 중요한 것은 디버깅 능력의 차이다. 서버와의 통신에 문제가 생겼을 때, 소켓을 모르면 클라이언트 코드만 뒤적거리게 된다. 하지만 소켓을 이해하고 있다면 패킷이 제대로 전송되었는지, 서버 응답이 왔는지, 어느 구간에서 막혔는지 체계적으로 추적할 수 있다.</p>
+</p>
+
+                <div class="readmore">
+                  <a href="/network%20programming/2025/06/10/Socket-Programming-Server/" class="lnk">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="archive-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+            <div class="image">
+              <a href="/network/2025/06/03/TCP-Header-Overview/">
+                <img src="/assets/img/blog/blog-2.jpg" alt="Transport Control Protocol" loading="lazy">
+              </a>
+            </div>
+            <div class="desc">
+              <div class="category lui-subtitle">
+                <span>2025-06-03</span>
+              </div>
+              <h5 class="lui-title">
+                <a href="/network/2025/06/03/TCP-Header-Overview/">Transport Control Protocol</a>
+              </h5>
+              <div class="lui-text">
+                <p><h2 id="tcp-overview">TCP Overview</h2>
+<p>  네트워크 전송 시 외부 요인의 영향을 많이 받는 L1(물리 계층), L2(데이터링크 계층)에서 데이터 손실 및 오류가 자주 일어난다. 이러한 문제점을 해결하기 위해 제안된 것이 TCP(Transport Control Protocol)이다. TCP의 가장 중요한 기능은 어플리케이션에 신뢰성 있는 데이터를 전송하는 것이다.
+<br />
+  이는 시퀀스 넘버 이용한 손실 감지, 시퀀스 넘버와 Ack 넘버를 통한 손실 탐지, Checksum을 이용한 오류 탐지, 재전송 요청을 통한 오류 수정, 윈도우 사이즈 값을 이용한 흐름 제어를 통해 보장한다. 또한 통신선의 효율을 위해 너무 큰 Segment는 Segmentation 후 전송되어 수신 측에서 시퀀스 넘버를 이용하여 Reassemble(재조립)을 한다. 또한 TCP에서 정의한 포트를 통해 여러 어플리케이션에서 하나의 IP를 사용하여 서로 다른 시스템과 통신을 할 수 있게 한다. 이것이 TCP의 가장 핵심적인 기능이다.
+<br /><br />
+  이러한 기능은 TCP Payload 앞에 붙여지는 헤더에 의해 제어된다. 따라서 본 포스트에서는 TCP 헤더에 대해 조금 살펴보겠다.
+<br /><br /></p>
+</p>
+
+                <div class="readmore">
+                  <a href="/network/2025/06/03/TCP-Header-Overview/" class="lnk">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="archive-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+            <div class="image">
+              <a href="/vulnerability/protocol/history/2025/05/23/OpenSSL-Heartbleed-Vulnerability/">
+                <img src="/assets/img/blog/blog-4-scaled-2.png" alt="Heartbleed Vulnerability" loading="lazy">
+              </a>
+            </div>
+            <div class="desc">
+              <div class="category lui-subtitle">
+                <span>2025-05-23</span>
+              </div>
+              <h5 class="lui-title">
+                <a href="/vulnerability/protocol/history/2025/05/23/OpenSSL-Heartbleed-Vulnerability/">Heartbleed Vulnerability</a>
+              </h5>
+              <div class="lui-text">
+                <p><h2 id="들어가기-전에">들어가기 전에</h2>
+<p>  현대의 컴퓨터 환경에서 워너크라이 랜섬웨어, Windows Spooler 취약점 공격 등 다양한 보안 사고가 끊임없이 발생하고 있으며 그로 인한 피해는 매우 심각한 수준이다. 특히 이번 포스트에서 다룰 Heartbleed 공격은 10여년 전 발견됐지만 공격 대상이 된 시스템에서 민감한 정보를 관리자가 인지하지 못하는 사이에 외부로 유출시킬 수 있다는 점에서 치명적인 위협이라고 생각한다.<br /><br />
+  Heartbleed 공격은 TLS Record 프로토콜의 확장 기능인 Heartbeat의 구현 오류에서 비롯된 보안 취약점을 이용한 공격으로 주로 서버의 메모리를 비정상적을 읽어오는 방식으로 이루어졌다. 이로 인해 비밀키, 사용자 인증 정보, 민감한 데이터, 보안 메커니즘 우회에 사용될 수 있는 내부 정보 등과 같은 중요한 데이터가 유출될 수 있었다.<br /><br />
+  본 포스트에서는 이러한 Heartbleed 공격의 심각성을 인식하고, 이를 보다 명확히 이해하기 위해 Heartbeat 프로토콜의 도입 배경과 요구사항을 기술한 후, 취약점이 존재하는 코드를 분석하여 구체적인 공격 메커니즘에 대한 이해를 돕고자한다. 또한 실제 피해 사례를 소개하고, 대응 방안에 대해 여러 자료들을 바탕으로 다양한 관점에서 서술하고자 한다.
+<br /><br /></p>
+</p>
+
+                <div class="readmore">
+                  <a href="/vulnerability/protocol/history/2025/05/23/OpenSSL-Heartbleed-Vulnerability/" class="lnk">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
           
           <div class="archive-item scrolla-element-anim-1 scroll-animate" data-animate="active">
             <div class="image">
@@ -323,56 +387,28 @@
             </div>
           </div>
           
-          <div class="archive-item scrolla-element-anim-1 scroll-animate" data-animate="active">
-            <div class="image">
-              <a href="/design/2020/06/15/by-spite-what/">
-                <img src="/assets/img/blog/blog6.jpg" alt="By spite about what to do" loading="lazy">
-              </a>
-            </div>
-            <div class="desc">
-              <div class="category lui-subtitle">
-                <span>2020-06-15</span>
-              </div>
-              <h5 class="lui-title">
-                <a href="/design/2020/06/15/by-spite-what/">By spite about what to do</a>
-              </h5>
-              <div class="lui-text">
-                <p><p>So striking at of to welcomed resolved. Northward by described up household therefore attention. Excellence decisively nay man yet impression for contrasted remarkably.</p>
-</p>
-
-                <div class="readmore">
-                  <a href="/design/2020/06/15/by-spite-what/" class="lnk">Read More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="archive-item scrolla-element-anim-1 scroll-animate" data-animate="active">
-            <div class="image">
-              <a href="/video/music/2020/01/08/welcome-to-jekyll/">
-                <img src="/assets/img/blog/blog-4-scaled-1.jpg" alt="Welcome to Jekyll!" loading="lazy">
-              </a>
-            </div>
-            <div class="desc">
-              <div class="category lui-subtitle">
-                <span>2020-01-08</span>
-              </div>
-              <h5 class="lui-title">
-                <a href="/video/music/2020/01/08/welcome-to-jekyll/">Welcome to Jekyll!</a>
-              </h5>
-              <div class="lui-text">
-                <p><p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in <a href="https://jekyllrb.com/docs/usage/">many different ways</a>, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-</p>
-
-                <div class="readmore">
-                  <a href="/video/music/2020/01/08/welcome-to-jekyll/" class="lnk">Read More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          
         </div>
 
+        
+        <div class="pager">
+          
+            <span class="page-numbers prev">Prev</span>
+          
+
+          
+            
+              <span class="page-numbers current">1</span>
+            
+          
+            
+              <a href="/blog/page2/" class="page-numbers">2</a>
+            
+          
+
+          
+            <a href="/blog/page2/" class="page-numbers next">Next</a>
+          
+        </div>
         
 
       </div>
@@ -403,19 +439,19 @@
             <ul class="wp-block-latest-posts__list wp-block-latest-posts">
                 
                 <li>
+                    <a class="wp-block-latest-posts__post-title" href="/network%20programming/2025/06/10/Socket-Programming-Server/">Python Socket Programming</a>
+                </li>
+                
+                <li>
+                    <a class="wp-block-latest-posts__post-title" href="/network/2025/06/03/TCP-Header-Overview/">Transport Control Protocol</a>
+                </li>
+                
+                <li>
+                    <a class="wp-block-latest-posts__post-title" href="/vulnerability/protocol/history/2025/05/23/OpenSSL-Heartbleed-Vulnerability/">Heartbleed Vulnerability</a>
+                </li>
+                
+                <li>
                     <a class="wp-block-latest-posts__post-title" href="/music/2020/08/05/by-spite-about/">By spite about do of do allow</a>
-                </li>
-                
-                <li>
-                    <a class="wp-block-latest-posts__post-title" href="/design/2020/07/20/two-before-arrow/">Two Before Arrow Not Relied</a>
-                </li>
-                
-                <li>
-                    <a class="wp-block-latest-posts__post-title" href="/mobile/2020/07/05/design-in-mobile/">Design in Mobile Application</a>
-                </li>
-                
-                <li>
-                    <a class="wp-block-latest-posts__post-title" href="/design/2020/06/15/by-spite-what/">By spite about what to do</a>
                 </li>
                 
             </ul>
@@ -440,6 +476,16 @@
                     <li class="cat-item"><a href="/categories/design">Design</a> <small>(2)</small></li>
                   
                     <li class="cat-item"><a href="/categories/mobile">Mobile</a> <small>(1)</small></li>
+                  
+                    <li class="cat-item"><a href="/categories/vulnerability">Vulnerability</a> <small>(1)</small></li>
+                  
+                    <li class="cat-item"><a href="/categories/protocol">Protocol</a> <small>(1)</small></li>
+                  
+                    <li class="cat-item"><a href="/categories/history">History</a> <small>(1)</small></li>
+                  
+                    <li class="cat-item"><a href="/categories/network">Network</a> <small>(1)</small></li>
+                  
+                    <li class="cat-item"><a href="/categories/network-programming">Network Programming</a> <small>(1)</small></li>
                   
                 
               
@@ -467,6 +513,14 @@
                     <li><a href="/tags/code">code</a> <small>(1)</small></li>
                   
                     <li><a href="/tags/rock">rock</a> <small>(1)</small></li>
+                  
+                    <li><a href="/tags/vulnerability">Vulnerability</a> <small>(1)</small></li>
+                  
+                    <li><a href="/tags/protocol">Protocol</a> <small>(1)</small></li>
+                  
+                    <li><a href="/tags/network">Network</a> <small>(2)</small></li>
+                  
+                    <li><a href="/tags/programming">Programming</a> <small>(1)</small></li>
                   
                 
               
@@ -499,16 +553,12 @@
 
           <div class="social-links scrolla-element-anim-1 scroll-animate" data-animate="active">
             
-            <a target="_blank" rel="nofollow" href="http://twitter.com" title="Twitter">
-              <i aria-hidden="true" class="fab fa-twitter"></i>
+            <a target="_blank" rel="nofollow" href="http://github.com/jamesdin32/" title="Github">
+              <i aria-hidden="true" class="fab fa-github"></i>
             </a>
             
-            <a target="_blank" rel="nofollow" href="http://dribbble.com" title="Dribbble">
-              <i aria-hidden="true" class="fab fa-dribbble"></i>
-            </a>
-            
-            <a target="_blank" rel="nofollow" href="http://behance.com" title="Behance">
-              <i aria-hidden="true" class="fab fa-behance"></i>
+            <a target="_blank" rel="nofollow" href="https://www.linkedin.com/in/jeanhyok-bang-61b701369/" title="LinkedIn">
+              <i aria-hidden="true" class="fab fa-linkedin-in"></i>
             </a>
             
           </div>
@@ -518,14 +568,14 @@
 
           <div class="copyright-text align-center scrolla-element-anim-1 scroll-animate" data-animate="active">
             2025
-            <strong>Luique</strong>. All rights reserved
+            
           </div>
 
         </div>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 
           <div class="copyright-text align-right scrolla-element-anim-1 scroll-animate" data-animate="active">
-            Developed by <strong>bslthemes</strong>
+            Powered by <strong>JH</strong>
           </div>
 
         </div>
