@@ -1,27 +1,27 @@
 [
   
     {
-      "title"    : "Python Socket Programming",
-      "category" : "Network Programming",
-      "tags"     : "Network, Programming",
-      "url"      : "/network%20programming/2025/06/10/Socket-Programming-Server/",
-      "date"     : "2025-06-10 00:00:00 +0000"
+      "title"    : "SKT 유심 해킹 사건",
+      "category" : "-Security -Incident",
+      "tags"     : "SKT, Hacking, SIM Swap",
+      "url"      : "/-security%20-incident/2025/06/16/skt/",
+      "date"     : "2025-06-16 00:00:00 +0000"
     } ,
   
     {
-      "title"    : "Transport Control Protocol",
-      "category" : "Network",
-      "tags"     : "Network",
-      "url"      : "/network/2025/06/03/TCP-Header-Overview/",
-      "date"     : "2025-06-03 00:00:00 +0000"
+      "title"    : "네트워크 엔지니어가 되려면",
+      "category" : "-Network -Career",
+      "tags"     : "Networking, Career",
+      "url"      : "/-network%20-career/2025/06/09/NetEng/",
+      "date"     : "2025-06-09 00:00:00 +0000"
     } ,
   
     {
-      "title"    : "Heartbleed Vulnerability",
-      "category" : "VulnerabilityProtocolHistory",
-      "tags"     : "Vulnerability, Protocol",
-      "url"      : "/vulnerability/protocol/history/2025/05/23/OpenSSL-Heartbleed-Vulnerability/",
-      "date"     : "2025-05-23 00:00:00 +0000"
+      "title"    : "보안 관제 직군의 특징",
+      "category" : "",
+      "tags"     : "SOC, 보안, 직무",
+      "url"      : "/security/2025/05/03/Security/",
+      "date"     : "2025-05-03 00:00:00 +0000"
     } ,
   
     {
